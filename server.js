@@ -9,4 +9,4 @@ app.use("/api",router)
 const { response } = require("express");
 const url = "mongodb://localhost:27017/ZeeTelugu";
 mongoose.connect(url)
-app.listen(3000,console.log("sevre runing"))
+app.listen(3000,console.log("sevre runing okay"))
